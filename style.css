@@ -1,0 +1,17 @@
+main {
+  overflow-x: scroll;
+  width: 90%;
+  margin: auto;
+}
+
+.nums {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.nums div {
+  padding: 1rem;
+}
+.nums div p {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
